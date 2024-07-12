@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import ClientesMenuView from '@/views/ClientesMenuView.vue'
 import EmpleadosView from '@/views/EmpleadosView.vue'
 import LoginView from '@/views/LoginView.vue'
+import RegistroClientesView from '@/views/RegistroClienteVIew.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -34,6 +35,11 @@ const router = createRouter({
       path: '/Login',
       name: 'Login',
       component: LoginView
+    },
+    {
+      path: '/RegistroClientes',
+      name: 'RegistroClientes',
+      component: RegistroClientesView
     },
   ]
 })

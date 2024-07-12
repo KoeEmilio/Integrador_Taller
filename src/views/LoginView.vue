@@ -28,7 +28,7 @@
                 <v-btn color="primary" block>Ingresar</v-btn>
             </v-col>
             <v-col>
-                <v-btn color="primary" block>Registrarse</v-btn>
+                <v-btn color="primary" block><router-link to="/RegistroClientes">Registrarse</router-link></v-btn>
             </v-col>
         </v-row>
         </v-container>
@@ -38,6 +38,7 @@
 </v-row>
 </v-container>
 </div>
+<router-view/>
 </template>
 
 <style>
